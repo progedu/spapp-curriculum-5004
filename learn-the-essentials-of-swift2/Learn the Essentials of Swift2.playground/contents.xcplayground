@@ -4,6 +4,7 @@
         <page name='クラスと初期化関数'/>
         <page name='構造体と列挙型'/>
         <page name='プロトコル'/>
+        <page name='ジェネリクス'/>
         <page name='Swift と CocoaTouch'/>
     </pages>
 </playground>
