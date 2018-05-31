@@ -31,6 +31,7 @@ let aceRawValue = ace.rawValue
 
 if let convertedRank = Rank(rawValue: 3) {
     let threeDescription = convertedRank.simpleDescription()
+    print("rank: \(threeDescription)")
 }
 
 //: `Suit`

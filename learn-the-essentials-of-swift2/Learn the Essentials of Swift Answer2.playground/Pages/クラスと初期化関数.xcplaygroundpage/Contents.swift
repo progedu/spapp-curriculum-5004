@@ -95,8 +95,10 @@ var triangles = 0
 for shape in shapesArray {
     if let square = shape as? Square {
         squares += 1
+        print("Square number of sides: \(square.numberOfSides)")
     } else if let triangle = shape as? Triangle {
         triangles += 1
+        print("Triangle number of sides: \(triangle.numberOfSides)")
     }
 }
 print("\(squares) squares and \(triangles) triangles.")
