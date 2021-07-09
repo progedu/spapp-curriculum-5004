@@ -2,7 +2,7 @@
 <playground version='6.0' target-platform='ios' display-mode='rendered'>
     <pages>
         <page name='クラスと初期化関数'/>
-        <page name='構造体と列挙型'/>
+        <page name='列挙型と構造体'/>
         <page name='プロトコル'/>
         <page name='ジェネリクス'/>
         <page name='Swift と CocoaTouch'/>
