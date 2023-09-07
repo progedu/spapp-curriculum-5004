@@ -37,9 +37,7 @@ class SimpleClass2: ExampleProtocol {
 var protocolArray: [ExampleProtocol] = [SimpleClass(), SimpleClass(), SimpleClass2()]
 for instance in protocolArray {
     instance.adjust()
-}
-for array in protocolArray {
-    print(array.simpleDescription)
+    print(instance.simpleDescription)
 }
 
 //: [Previous](@previous) | [Next](@next)
